@@ -1,0 +1,251 @@
+body {
+    min-height: 100vh ;
+    min-width: 1000px;
+    color: #767676;
+    background-color: #f8f8f8;
+    font-family: "PT Sans"  ;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+@font-face {
+    font-family: "PT Sans";
+    src: url(./Fonts/PTSans-Regular.ttf);
+}
+@font-face {
+    font-family: "OpenSansCondensed";
+    src: url(./Fonts/OpenSansCondensed-Light.ttf);
+}
+header{
+    height: 230px;
+    background-color: lightgray;
+    overflow: hidden;
+}
+.centerr {
+    width: 980px;
+    padding: 0px 10px 0px 10px;
+    margin: 0 auto;
+    min-height: min-content;
+}
+.logoandNomer {
+    width: 980px;
+    display: flex;
+    margin: 0 auto;
+}
+.logo {
+    justify-content: left;
+    width: 273px;
+    height: 100px;
+    padding: 65px 0px 0px 0px;
+}
+.Nomerandfeedback {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+.Nomer {
+    width: 260px;
+    height: 81px;
+    color: #767676;
+    font-family: "OpenSansCondensed";    
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 46px;
+    text-align: right;
+    padding-top: 45px;
+    padding-right: 1px;
+}
+.feedback1 {
+    width: 171px;
+    height: 22px;
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 46px;
+    margin-left: auto;
+    text-align: left;
+    letter-spacing: 0.6px;
+} 
+.feedback2 {
+    width: 170px;
+    height: 2px;
+    color: #767676;
+    font-family: "OpenSansCondensed";
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: auto;
+    letter-spacing: 0.6px;
+}
+menu {
+    background-color: grey;
+    height: min-content;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+}
+.links {
+    width: 902px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 26px 0px 27px 0px;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+}
+li{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+.link{
+    margin: 4px 9px;
+}
+.link:visited {
+    color: white;
+    text-decoration: none;
+}
+.link:hover {
+    color: white;
+    text-decoration: underline;
+}
+.link:link {
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.slidbody{
+    outline: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.slider {
+    width: 1248px;  
+    margin: 0 auto;
+    position: relative;
+    outline: none;
+}
+.slick-list {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}
+.slider .slick-arrow{
+    position: absolute;
+    margin-top: 155px;
+    z-index: 1000;
+    font-size: 0;
+    width: 34px;
+    height: 61px;
+    border: none;
+}
+.slider .slick-arrow.slick-prev{
+    left: 128px;
+    background: url('media/left.png') 0 0 / 100% repeat;
+}
+.slider .slick-arrow.slick-next{
+    right: 166px;
+    margin-top: -252px;
+    background: url('media/right.png') 0 0 / 100% repeat;
+}
+
+.breadcrums {
+    width: 249px;
+    height: 13px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bread {
+    color: #767676;
+}
+.secondcollons{
+    margin-top: 26px;
+}
+.categories{
+
+}
+
+content{
+    height: min-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+footer {
+    margin-top: auto;
+    width: 100%;
+    height: 220px;
+    background-color: gray;
+    display: flex;
+    bottom: 0;
+}  
+.footerInfo{
+    width: 210px;
+    height: 35px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.35px;
+    padding-top: 50px;
+    margin: 0;
+}
+.footermenu {
+    width: 119px;
+    height: 117px;
+    float: right;
+    padding: 50px 283px 53px 55px;
+}
+.footerlogotext {
+    width: 220px;
+    height: 39px;
+    float: right;
+    padding: 49px 1px 132px 0px;
+}
+.footerlogo {
+    width: 36px;
+    height: 38px;
+    float: left;
+    padding: 1px 7px 0px 0px;
+}
+.footertext {
+    width: 177px;
+    height: 33px;
+    color: #ffffff;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    float: right;
+    margin: 0;
+}
