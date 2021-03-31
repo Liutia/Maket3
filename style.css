@@ -61,7 +61,7 @@ header{
 }
 .feedback1 {
     width: 171px;
-    height: 22px;
+    height: 24px;
     color: #767676;
     font-family: "PT Sans";
     font-size: 24px;
@@ -71,7 +71,6 @@ header{
     line-height: 46px;
     margin-left: auto;
     text-align: left;
-    letter-spacing: 0.6px;
 } 
 .feedback2 {
     width: 170px;
@@ -86,6 +85,258 @@ header{
     margin-left: auto;
     letter-spacing: 0.6px;
 }
+
+#myBtn{
+    z-index: 1;
+    margin-left: auto;
+    width: 171px;
+    height: 24px;
+}
+.fedbek{
+    text-decoration: none;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+.EXIT{
+    float: right;
+    margin-right: -27px;
+    margin-top: -27px;
+}
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    width: 466px;
+    height: 578px;
+}
+.obratnya{
+    width: 210px;
+    height: 24px;
+    color: #535353;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 35px 134px 0px 124px;
+}
+.nameform{
+    width: 67px;
+    height: 14px;
+    color: #535353;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin: 35px 132px 9px 140px;
+}
+.phoneform{
+    width: 60px;
+    height: 14px;
+    color: #535353;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin: 20px 135px 6px 144px;
+}
+.emailform{
+    width: 41px;
+    height: 14px;
+    color: #535353;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin: 22px 145px 9px 153px;
+}
+.messageform{
+    width: 70px;
+    height: 14px;
+    color: #535353;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin: 21px 135px 7px 134px;
+}
+
+
+
+
+
+
+
+.message_wall{
+    resize: none;
+    width: 339px;
+    height: 137.5px;
+    padding: 0;
+    margin: 0;
+}
+input::placeholder{
+    width: 206px;
+    height: 11px;
+    color: #dc7f7f;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+.form-error{
+    width: 339px;
+    height: 40px;
+    box-shadow: inset 0 0 13px rgba(228, 106, 106, 0.75);
+    border: 1px solid #ff8383;
+    background-color: #ffffff;
+}
+.form {
+    display: inline-block;
+    width: 339px;
+    margin: 0px 64px 0px 63px;
+}
+
+.form__error {
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+    display: none;
+}
+.form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.form button {
+    width: 128px;
+    height: 42px;
+    margin: 22px 106px 26px 105px;
+    border: 0;
+    background-color:#777777;
+    color: #ffffff;
+
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+input:valid:not(:placeholder-shown) {
+    border-color: green;
+}
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+    width: 339px;
+    height: 40px;
+    box-shadow: inset 0 0 13px rgba(228, 106, 106, 0.75);
+    border: 1px solid #ff8383;
+    background-color: #ffffff;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+    width: 339px;
+    height: 40px;
+    box-shadow: inset 0 0 13px rgba(228, 106, 106, 0.75);
+    border: 1px solid #ff8383;
+    background-color: #ffffff;  
+}
+input:invalid:not(:focus):not(:placeholder-shown){
+    width: 339px;
+    height: 40px;
+    box-shadow: inset 0 0 13px rgba(228, 106, 106, 0.75);
+    border: 1px solid #ff8383;
+    background-color: #ffffff;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 menu {
     background-color: grey;
     height: min-content;
@@ -120,6 +371,8 @@ li{
     text-decoration: none;
 }
 .link{
+    color: white;
+
     margin: 4px 9px;
 }
 .link:visited {
@@ -134,7 +387,7 @@ li{
     color: white;
     text-decoration: none;
 }
-a{
+.menulink{
     color: white;
     text-decoration: none;
 }
@@ -176,6 +429,14 @@ a{
     background: url('media/right.png') 0 0 / 100% repeat;
 }
 
+
+content{
+    height: min-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
 .breadcrums {
     width: 249px;
     height: 13px;
@@ -187,20 +448,209 @@ a{
 .bread {
     color: #767676;
 }
-.secondcollons{
+.link:hover {
+    text-decoration: underline;
+}
+.catalog{
+    max-height: min-content;
     margin-top: 26px;
+    margin-bottom: 202px;
 }
-.categories{
-
-}
-
-content{
-    height: min-content;
-    background-color: white;
+.leftblock{
+    width: 178px;
+    height: 254px;
+    float: left;
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
+    justify-content: space-between;
+    font-size: 18px;
 }
+
+.verticalaccordion>ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+   	width: 178px;
+}
+.podmenu {
+    display:block;
+	overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+	height:20px;
+    width: 178px;
+}
+
+.verticalaccordion>ul>li>div {
+    margin:0;
+    overflow: auto;
+    padding: 10px;
+    height: min-content;
+}
+.verticalaccordion>ul>li:hover {
+	height: min-content;
+}
+
+.bmlink{    
+    color: #767676;
+    text-decoration: none;
+}
+.bmlink:hover{
+    text-decoration: underline;
+}
+.fotocat {
+    padding: 110px 38px 0px 43px;
+}
+.pricelist{
+    margin: 0 auto;
+    width: 151px;
+    height: 27px;
+    color: #444444;
+    font-family: "PT Sans";
+    font-size: 27px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    padding-top: 6px;
+}
+
+
+
+
+
+.centerblock{
+    width: 780px;
+    float: right;
+    height: min-content;
+    margin-top: 1px;
+    margin-bottom: 202px;
+}
+
+.shopgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.tovar{
+    background-color: #dcdcdc;
+    color: #767676;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 380px;
+}
+.nofoto{
+    padding: 20px 20px 0px 20px;
+}
+.linkashop{
+    width: 188px;
+    height: 35px;
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.45px;
+    padding: 21px 42px 0px 20px;
+}
+.price{
+    width: 103px;
+    height: 26px;
+    color: #444444;
+    font-family: "PT Sans";
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+    letter-spacing: 0.7px;
+    padding: 55px 0px 0px 18px;
+    float: left;
+}
+.bucket{
+    padding: 57px 36px 17px 0px;
+    float: right;
+}
+.cufru {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 174px;
+    height: 22px;
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 67px;    
+}
+.cufrulink{
+    text-decoration: none;
+    color: #767676;
+}
+.cufra{
+    padding-top: 1px;
+    letter-spacing: 7.91px;
+}
+.cufra3{
+    color: #444444;
+    font-size: 18px;
+    letter-spacing: 10.17px;
+}
+.linea{
+    width: 780px;
+    height: 1px;
+    background-color: #777777;
+    margin-bottom: 28px;
+}
+.info{
+    width: 780px;
+    height: 212px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    letter-spacing: normal;
+}
+.info1{
+    width: 371px;
+    height: 168px;
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: normal;
+    margin: 0;
+}
+.info2{
+    width: 368px;
+    height: 212px;
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: normal;
+    float: left;
+    margin: 0;
+}
+
+
 footer {
     margin-top: auto;
     width: 100%;
@@ -220,6 +670,9 @@ footer {
     letter-spacing: 0.35px;
     padding-top: 50px;
     margin: 0;
+}
+.footerlink{
+    color: white;
 }
 .footermenu {
     width: 119px;
